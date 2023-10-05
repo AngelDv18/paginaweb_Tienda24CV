@@ -30,6 +30,11 @@ h1 {
 
 }
 
+.tittle-container{
+    color: black;
+    text-align: center;
+}
+
 /* Header */
 .header {
     background-color:  #333;
@@ -258,7 +263,6 @@ footer {
     background-color: #333;
     color: #ffffff;
 
-    padding: 20px 10px;
    
     
 }
@@ -294,7 +298,7 @@ footer {
 }
 
 .profiles a {
-    margin-left: 10px;
+    margin-left: 5px;
     color: white;
     text-decoration: none;
     transition: color 0.3s;
@@ -341,17 +345,4 @@ footer {
 
 .search-button:hover {
     background-color: black;
-}
-
-/* Estilos para el banner de video */
-.banner {
-    background-color: #000; /* Color de fondo para el banner */
-    height: 400px; /* Altura del banner */
-    overflow: hidden; /* Oculta partes del video que se desborden */
-}
-
-.banner video {
-    width: 100%; /* Ancho del video al 100% del contenedor */
-    height: auto; /* Altura automática para mantener la proporción */
-    object-fit: cover; /* Ajusta el video para cubrir el contenedor */
 }
